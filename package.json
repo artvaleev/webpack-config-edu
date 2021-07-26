@@ -1,0 +1,20 @@
+{
+  "name": "webpack-config-edu",
+  "version": "1.0.0",
+  "description": "Demo config of webpack",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-artvaleev:artvaleev/webpack-config-edu.git"
+  },
+  "author": "artvaleev",
+  "license": "ISC"
+}
