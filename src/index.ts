@@ -1,11 +1,11 @@
 import { makeComponent } from './makeComponent';
 import Logo from './webpack.png';
-import './style.css';
+import './style.scss';
 
 function test() {
   const element = makeComponent();
 
-  element.innerHTML = ['Hello', 'webpack'].join(', ');
+  element.innerHTML = ['Hello', 'webpack1'].join(', ');
 
   return element;
 }
