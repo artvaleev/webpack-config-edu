@@ -1,12 +1,17 @@
 import { makeComponent } from './makeComponent';
+import Logo from './webpack.png';
+import './style.css';
 
-function component() {
+function test() {
   const element = makeComponent();
 
-  // Lodash, currently included via a script, is required for this line to work
   element.innerHTML = ['Hello', 'webpack'].join(', ');
 
   return element;
 }
 
-document.body.appendChild(component());
+const LogoElement = new Image();
+LogoElement.src = Logo;
+
+document.body.appendChild(test());
+document.body.appendChild(LogoElement);
